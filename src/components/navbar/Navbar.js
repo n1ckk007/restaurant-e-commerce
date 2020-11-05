@@ -1,12 +1,12 @@
 import React from "react";
 import { Bars, Nav, NavIcon, NavLink } from "./NavbarStyles";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavLink to="/">Pizza</NavLink>
-        <NavIcon>
+        <NavIcon onClick={toggle}>
           <p>Menu</p>
           <Bars />
         </NavIcon>
