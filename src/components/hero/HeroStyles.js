@@ -13,7 +13,6 @@ export const HeroContent = styled.div`
   /* full screen height minus navbar 80px*/
   height: calc(100vh - 80px);
   max-height: 100%;
-  width: 100vw;
   /* same width as bootstrap container */
   padding: 0rem calc((100vw - 1300px) / 2);
 `;
